@@ -1,96 +1,55 @@
-# Fullstack Collection App
+# Kowhai: The Educational Adventure
 
-This repo is designed to provide space to code a fullstack app. It contains node modules and folders for databases, routes, API requests and React components that'll use React Query. Let's get going!
+## About Kowhai
 
-## Setup
+Kowhai is an immersive educational game designed to provide children with a comprehensive learning experience. In this interactive digital world, children are guided by a friendly unicorn named Kowhai on an educational adventure that encompasses not only language skills but also fundamental knowledge in areas such as basic arithmetic and more.
 
-### 0. Cloning and installation
+## Game Features
 
-- [ ] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
-  <details style="padding-left: 2em">
-    <summary>Tip</summary>
+### Magical Unicorn Companion
 
-    You may also want to start a new branch
-    ```sh
-    cd my-fullstack-collection
-    npm i
-    git checkout -b <branchname>
-    npm run dev
-    ```
-  </details>
+Meet Kowhai, the charismatic unicorn who serves as both a mentor and a companion on this educational journey. Kowhai makes learning fun and engaging, offering guidance in various subject areas.
 
-<details>
-  <summary>More about using <code>npm</code> vs <code>npx</code></summary>
+### Multifaceted Learning
 
-  - When running knex, run `npm run knex <command>`, e.g. `npm run knex migrate:latest` rather than using `npx`
-</details>
+Kowhai's mission is to empower children with a diverse skill set. The game covers a wide range of subjects, including:
 
----
+- **Language Learning:** Develop proficiency in both Te Reo Māori and English through interactive lessons, exercises, and challenges.
 
-## Requirements
+- **Basic Arithmetic:** Master fundamental math concepts through engaging activities and exercises suitable for preschool-level learners.
 
-### 1. Choosing your data set
+- **Problem Solving:** Enhance critical thinking and problem-solving skills through a variety of puzzles and challenges.
 
-- [ ] First, decide what you would like to keep a collection of. This could be a repo for keeping track of movies, books, gifs, cars, rocks, anything you fancy, but keep it simple!
-  <details style="padding-left: 2em">
-    <summary>More about your collection</summary>
+- **Creativity:** Foster creativity through art and storytelling activities that encourage self-expression.
 
-    **Note:** the aim is to have some simple data. If you think you might need more than one database table, or have lots of details you want to store, how could you simplify the information you're keeping track of? Leave more complex data until later in the project. For example, I want to keep track of books that I want to read, ones that I have read, and ones that I own. To start with though, let's keep track of the books themselves. My data might look like:
+### Enchanting New Zealand Setting
 
-    |id|title|author|
-    |---|---|---|
-    | 1 | Ready Player One | Ernest Cline |
-    | 2 | Throwing Rocks at the Google Bus | Douglas Rushkoff |
+Explore a vibrant and colorful cartoon version of New Zealand as the backdrop for your learning adventure. This setting not only makes learning visually appealing but also fosters an appreciation for New Zealand's culture and geography.
 
-Our first job is getting something showing on the front end from our database. Here's a list of steps in case they are useful. You can build in any order you like though ;)
+### Farmyard Friends
 
-## Back end
+In Kowhai, children don't embark on their educational journey alone. They have the opportunity to interact with a variety of friendly farm animals who collaborate with Kowhai in completing activities. These farmyard friends add an element of teamwork and fun to the learning process.
 
-### 2. Building the database
+## How to Play
 
-- [ ] Design a database to store a list of your things (e.g. books)
-- [ ] Build the migrations and seed data
+1. **Choose Your Adventure:** Begin by selecting the subject area you'd like to explore, whether it's language learning, math, problem solving, or creativity.
 
-### 3. Building the API
-- [ ] Build an API (back end route) to get the information from your database
-- [ ] Test your API with Insomnia
+2. **Meet Kowhai:** Meet your unicorn companion, Kowhai, who will guide you through the chosen educational adventure.
 
-## Front end
+3. **Explore New Zealand:** Explore the vibrant and whimsical New Zealand landscape, discovering new challenges and activities along the way.
 
-### 4. Setting the stage
-- [ ] Build a React component with static html
+4. **Interact with Farm Animals:** Engage with farm animals who join you on your learning journey, each offering their unique knowledge and assistance.
 
-### 5. Building the API client
-- [ ] Build an API client in the front end to request the information from your routes
+5. **Complete Activities:** Take part in a variety of activities, puzzles, and challenges designed to teach and reinforce educational concepts.
 
-### 6. Querying Data 
-- [ ] Write a query with the `useQuery` hook to fetch the collection data from the API
-- [ ] Display the collection data you queried in a component (you may want to create a new component for this)
+6. **Track Your Progress:** Monitor your progress and celebrate achievements as you advance in each subject area.
 
-### 7. Create Data
-- [ ] (Optional) Create a new component for your new collection item form
-- [ ] Mutate data with the `useMutation` hook to create a new collection item via the API 
+## Installation
 
-### 8. Delete Data
-- [ ] Mutate data with the `useMutation` hook to delete an exisiting collection item via the API (you may want to add this to your collection display component)
+To embark on your educational adventure with Kowhai, follow these steps:
 
-### 9. Update Data
-- [ ] (Optional) Create a new component for your update collection item form
-- [ ] Mutate data with the `useMutation` hook to update an exisiting collection item via the API 
+1. Clone the repository to your local machine:
 
----
+   ```bash
+   git clone https://github.com/yourusername/kowhai-game.git
 
-## Stretch
-
-<details>
-  <summary>More about stretch challenges</summary>
-  
-  - Forms can be tough to build accessibly. First ensure all parts of your form can be reached and used with keyboard-only navigation. Then test your form page with the WAVE browser extension, and fix any accessibility issues it detects
-  - Is there any complex data you chose to not include earlier or any way you could expand this dataset?
-    - You might have some other information (e.g. unread books vs. read books) that should be included in your database design, and this may require adjusting your database design
-  - Could you add an external API (maybe an inspirational quote in the footer?)
-  - If you haven't already, CSS!
-</details>
-
----
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=my-fullstack-collection-query)
